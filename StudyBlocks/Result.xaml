@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StudyBlocks.Result">
+	<ContentPage.Content>
+
+        <StackLayout VerticalOptions="Center">
+
+            <Button x:Name="Test" Text="Click here to see how well you did?"/>
+
+            <Label x:Name="Results" />
+
+            <Button x:Name="Home" Text="Home"/>
+
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

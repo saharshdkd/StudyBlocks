@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="StudyBlocks.BlockSetup">
+
+    <ScrollView>
+
+        <StackLayout VerticalOptions="StartAndExpand">
+
+            <Label Text="Topic" FontSize="Large" />
+            
+            <Entry x:Name="Topic" Placeholder="Which topic are you studying?" Keyboard="Text"/>
+
+            <Label Text="Location" FontSize="Large"/>
+
+            <Entry x:Name="Location" Text="" Placeholder="Location" Keyboard="Text"/>
+
+            <Label Text="Your Goal?" FontSize="Large" />
+
+            <Entry x:Name="Goal" Text="" Placeholder="For how long? (min.)" Keyboard="Numeric" Completed="SetButtonEnable" />
+
+            <Button x:Name="Begin" Text="Begin" IsEnabled="false"/>
+
+
+            
+        </StackLayout>
+
+    </ScrollView>
+    
+</ContentPage>
+
